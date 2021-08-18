@@ -11,6 +11,7 @@ class ComposerScripts
     public static function postInstall(Event $event)
     {
         $account = '111-11-1112';
+        $account = '111-11-1112';
 
         require_once $event->getComposer()->getConfig()->get('vendor-dir').'/autoload.php';
 
